@@ -1,0 +1,1195 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: "DM Sans", sans-serif;
+
+    background: #f4eee4;
+
+    color: #201b19;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+
+    height: 85px;
+
+    padding: 0 7%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: #120f0e;
+
+    color: white;
+
+}
+
+
+.logo {
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    font-size: 18px;
+
+}
+
+
+.logo span {
+
+    display: block;
+
+    font-size: 10px;
+
+    letter-spacing: 5px;
+
+    color: #b32929;
+
+}
+
+
+nav {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 28px;
+
+}
+
+
+nav a {
+
+    font-size: 14px;
+
+    transition: .3s;
+
+}
+
+
+nav a:hover {
+
+    color: #c93b3b;
+
+}
+
+
+.botao-nav {
+
+    background: #a82020;
+
+    padding: 12px 20px;
+
+    border-radius: 3px;
+
+}
+
+
+/* =========================
+   BOTÕES
+========================= */
+
+.botao {
+
+    display: inline-block;
+
+    background: #a82020;
+
+    color: white;
+
+    padding: 15px 25px;
+
+    border-radius: 3px;
+
+    font-weight: 600;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+.botao:hover {
+
+    background: #871919;
+
+}
+
+
+.botao-outline {
+
+    display: inline-block;
+
+    border: 1px solid white;
+
+    color: white;
+
+    padding: 14px 25px;
+
+    border-radius: 3px;
+
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+
+    min-height: 720px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 8%;
+
+    color: white;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            rgba(15, 8, 8, .90),
+            rgba(15, 8, 8, .35)
+        ),
+
+        url("../img/natal.png");
+
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+
+.hero-conteudo {
+
+    max-width: 700px;
+
+}
+
+
+.mini-titulo {
+
+    color: #bd3535;
+
+    font-size: 11px;
+
+    letter-spacing: 4px;
+
+    font-weight: 700;
+
+}
+
+
+.hero h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: clamp(45px, 6vw, 78px);
+
+    line-height: 1.05;
+
+    margin: 20px 0;
+
+}
+
+
+.hero p {
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    max-width: 600px;
+
+}
+
+
+.botoes {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 30px;
+
+}
+
+
+.sobre-home {
+
+    padding: 100px 8%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+}
+
+
+.sobre-home h2,
+.destaque h2 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 50px;
+
+    margin-top: 15px;
+
+}
+
+
+.sobre-home p {
+
+    color: #625b55;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+
+}
+
+
+.sobre-home a {
+
+    color: #a82020;
+
+    font-weight: 700;
+
+}
+
+
+.destaque {
+
+    padding: 120px 8%;
+
+    background: #171110;
+
+    color: white;
+
+}
+
+
+.destaque h2 {
+
+    margin-bottom: 15px;
+
+}
+
+
+.destaque p {
+
+    margin-bottom: 30px;
+
+}
+
+
+.pagina {
+
+    min-height: calc(100vh - 150px);
+
+}
+
+
+.historia {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 100px 7% 60px;
+
+}
+
+
+.historia h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 60px;
+
+    line-height: 1.1;
+
+    margin: 20px 0 40px;
+
+}
+
+
+.historia p {
+
+    font-size: 18px;
+
+    line-height: 1.9;
+
+    color: #625b55;
+
+    margin-bottom: 25px;
+
+}
+
+
+.confianca {
+
+    padding: 70px 8%;
+
+    background: #171110;
+
+    color: white;
+
+}
+
+
+.confianca h2 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 45px;
+
+    margin: 15px 0 40px;
+
+}
+
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+}
+
+
+.cards article {
+
+    padding: 30px;
+
+    background: #241d1b;
+
+    border: 1px solid #453936;
+
+}
+
+
+.cards h3 {
+
+    margin-bottom: 15px;
+
+}
+
+
+.cards p {
+
+    color: #c9c0b8;
+
+    line-height: 1.7;
+
+}
+
+
+/* =========================
+   DIREITOS
+========================= */
+
+.direitos {
+
+    padding: 90px 8%;
+
+    max-width: 1000px;
+
+}
+
+
+.direitos h2 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 45px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.direitos p {
+
+    color: #625b55;
+
+    line-height: 1.8;
+
+    margin-bottom: 15px;
+
+}
+
+
+.contato {
+
+    padding: 100px 8%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 100px;
+
+}
+
+
+.contato h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 58px;
+
+    line-height: 1.1;
+
+    margin: 20px 0;
+
+}
+
+
+.contato-info > p {
+
+    color: #625b55;
+
+    line-height: 1.8;
+
+    margin-bottom: 40px;
+
+}
+
+
+.informacao {
+
+    margin-bottom: 25px;
+
+}
+
+
+.informacao p {
+
+    color: #625b55;
+
+    margin-top: 6px;
+
+}
+
+
+form {
+
+    background: white;
+
+    padding: 40px;
+
+    border: 1px solid #ded4c8;
+
+}
+
+
+label {
+
+    display: block;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+}
+
+
+input,
+textarea,
+select {
+
+    display: block;
+
+    width: 100%;
+
+    margin-top: 8px;
+
+    padding: 14px;
+
+    border: 1px solid #d4c9bc;
+
+    background: #faf8f5;
+
+    font-family: inherit;
+
+}
+
+
+textarea {
+
+    resize: vertical;
+
+}
+
+
+.titulo-pagina {
+
+    padding: 100px 8% 50px;
+
+}
+
+
+.titulo-pagina h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 60px;
+
+    margin-top: 15px;
+
+}
+
+
+.destino-card {
+
+    margin: 0 8% 100px;
+
+    background: white;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.imagem-natal {
+
+    min-height: 450px;
+
+    background:
+
+        url("../img/natal.jpg")
+
+        center / cover;
+
+}
+
+
+.imagem-natal.grande {
+
+    min-height: 500px;
+
+    margin-bottom: 40px;
+
+}
+
+
+.destino-info {
+
+    padding: 60px;
+
+}
+
+
+.destino-info h2 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 55px;
+
+    margin: 15px 0;
+
+}
+
+
+.destino-info p {
+
+    color: #625b55;
+
+    line-height: 1.7;
+
+}
+
+
+.detalhes {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    margin: 35px 0;
+
+    gap: 15px;
+
+}
+
+
+.detalhes div {
+
+    border-top: 1px solid #ddd;
+
+    padding-top: 15px;
+
+}
+
+
+.detalhes strong {
+
+    display: block;
+
+    font-size: 18px;
+
+}
+
+
+.detalhes span {
+
+    font-size: 12px;
+
+    color: #777;
+
+}
+
+
+
+.detalhe-destino {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    padding: 80px 7%;
+
+}
+
+
+.detalhe-destino h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 65px;
+
+    margin: 15px 0;
+
+}
+
+
+.detalhe-destino > p {
+
+    color: #625b55;
+
+    line-height: 1.8;
+
+    font-size: 18px;
+
+}
+
+
+.informacoes-viagem {
+
+    display: flex;
+
+    gap: 50px;
+
+    margin: 40px 0;
+
+    padding: 30px 0;
+
+    border-top: 1px solid #d8cec3;
+
+    border-bottom: 1px solid #d8cec3;
+
+}
+
+
+.informacoes-viagem strong,
+.informacoes-viagem span {
+
+    display: block;
+
+}
+
+
+.informacoes-viagem span {
+
+    color: #777;
+
+    font-size: 13px;
+
+}
+
+
+.detalhe-destino h2 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    margin: 40px 0 20px;
+
+}
+
+
+.detalhe-destino li {
+
+    margin-bottom: 12px;
+
+    color: #625b55;
+
+}
+
+
+.formulario-reserva {
+
+    max-width: 750px;
+
+    margin: auto;
+
+    padding: 90px 7%;
+
+}
+
+
+.formulario-reserva h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 60px;
+
+    margin: 15px 0;
+
+}
+
+
+.formulario-reserva > p {
+
+    color: #625b55;
+
+    margin-bottom: 35px;
+
+}
+
+
+.pagamentos {
+
+    margin-bottom: 25px;
+
+}
+
+
+.pagamentos label {
+
+    font-weight: 400;
+
+}
+
+
+.pagamentos input {
+
+    display: inline-block;
+
+    width: auto;
+
+}
+
+
+.aviso {
+
+    padding: 20px;
+
+    background: #f1e7db;
+
+    margin-bottom: 25px;
+
+}
+
+
+.aviso p {
+
+    margin-top: 8px;
+
+    color: #665c54;
+
+}
+
+
+.dashboard {
+
+    background: #11100f;
+
+    color: white;
+
+}
+
+
+.dashboard-top {
+
+    padding: 70px 8% 30px;
+
+}
+
+
+.dashboard-top h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 55px;
+
+    margin-top: 15px;
+
+}
+
+
+.estatisticas {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+
+    padding: 30px 8%;
+
+}
+
+
+.estatisticas div {
+
+    padding: 30px;
+
+    background: #211c1a;
+
+    border: 1px solid #3a302c;
+
+}
+
+
+.estatisticas span {
+
+    display: block;
+
+    color: #bdb3ac;
+
+}
+
+
+.estatisticas strong {
+
+    display: block;
+
+    font-size: 42px;
+
+    margin-top: 10px;
+
+    color: #d24a4a;
+
+}
+
+
+.tabela {
+
+    margin: 20px 8% 80px;
+
+    background: #211c1a;
+
+    padding: 30px;
+
+    overflow-x: auto;
+
+}
+
+
+.tabela h2 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    margin-bottom: 25px;
+
+}
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+th,
+td {
+
+    padding: 15px;
+
+    text-align: left;
+
+    border-bottom: 1px solid #3a302c;
+
+}
+
+
+th {
+
+    color: #d24a4a;
+
+}
+
+
+.promo {
+
+    min-height: 650px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 8%;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            rgba(20,8,8,.9),
+            rgba(20,8,8,.25)
+        ),
+
+        url("../img/natal.jpg")
+
+        center / cover;
+
+    color: white;
+
+}
+
+
+.promo-conteudo {
+
+    max-width: 650px;
+
+}
+
+
+.promo h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 75px;
+
+    margin: 20px 0;
+
+}
+
+
+.promo p {
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+}
+
+
+.preco {
+
+    margin: 30px 0;
+
+}
+
+
+.preco small {
+
+    display: block;
+
+}
+
+
+.preco strong {
+
+    display: block;
+
+    font-size: 42px;
+
+    color: #e1a27b;
+
+}
+
+
+
+.beneficios {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    background: #171110;
+
+    color: white;
+
+}
+
+
+.beneficios div {
+
+    padding: 40px;
+
+    border-right: 1px solid #382d2a;
+
+}
+
+
+.beneficios h3 {
+
+    color: #d24a4a;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+footer {
+
+    padding: 35px 8%;
+
+    background: #0d0b0a;
+
+    color: #aaa;
+
+    text-align: center;
+
+    font-size: 12px;
+
+}
+
+
+
+@media(max-width: 800px) {
+
+    header {
+
+        height: auto;
+
+        padding: 20px;
+
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+
+    nav {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+
+    }
+
+
+    .sobre-home,
+    .contato,
+    .destino-card {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .cards,
+    .estatisticas,
+    .beneficios {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .hero h1,
+    .promo h1,
+    .historia h1,
+    .contato h1,
+    .titulo-pagina h1,
+    .formulario-reserva h1 {
+
+        font-size: 45px;
+
+    }
+
+
+    .destino-info {
+
+        padding: 35px;
+
+    }
+
+
+    .botoes {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+}

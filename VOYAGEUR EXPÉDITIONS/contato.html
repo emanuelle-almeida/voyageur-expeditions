@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | Voyageur Expéditions</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <span>VOYAGEUR</span>
+        EXPÉDITIONS
+    </div>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="contato.html">Contato</a>
+
+        <a class="botao-nav" href="reserva.html">
+            Reservar
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="pagina">
+
+    <section class="contato">
+
+        <div class="contato-info">
+
+            <span class="mini-titulo">
+                FALE CONOSCO
+            </span>
+
+            <h1>
+                Estamos aqui para
+                servir você.
+            </h1>
+
+            <p>
+                Entre em contato com nossa equipe
+                para tirar dúvidas sobre viagens,
+                destinos e reservas. Sempre estaremos prontos para ajudar você.
+            </p>
+
+            <div class="informacao">
+
+                <strong>E-mail</strong>
+                <p>contato@voyageurexpeditions.com.br</p>
+
+            </div>
+
+            <div class="informacao">
+
+                <strong>Telefone</strong>
+                <p>(31) 91234-5678</p>
+
+            </div>
+
+            <div class="informacao">
+
+                <strong>Atendimento</strong>
+                <p>
+                    Segunda à sexta-feira<br>
+                    08:00 às 18:00
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <form id="formContato">
+
+            <label>
+                Nome completo
+                <input
+                    type="text"
+                    id="nome"
+                    required
+                >
+            </label>
+
+
+            <label>
+                Número de contato
+                <input
+                    type="tel"
+                    id="telefone"
+                    placeholder="(00) 00000-0000"
+                    required
+                >
+            </label>
+
+
+            <label>
+                E-mail
+                <input
+                    type="email"
+                    id="email"
+                    required
+                >
+            </label>
+
+
+            <label>
+                Mensagem
+                <textarea
+                    id="mensagem"
+                    rows="6"
+                    required
+                ></textarea>
+            </label>
+
+
+            <button type="submit" class="botao">
+                Enviar mensagem
+            </button>
+
+            <p id="mensagemSucesso"></p>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        Voyageur Expéditions —
+        Empresa fictícia.
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

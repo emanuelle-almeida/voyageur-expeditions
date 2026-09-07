@@ -1,0 +1,49 @@
+1. Home (Index)
+
+A página inicial é a principal porta de entrada do site. Nela são apresentadas o slogan, destino e promoções.
+
+2. Destinos e Destinos Natal
+
+A página de destinos apresenta os principais locais disponíveis para viagens. A página de destinos Natal apresenta as principais 
+informações disponíveis para uma viagem em Natal.
+
+3. Reserva
+
+Lugar para o cliente fazer sua reserva de viagem. A página apresenta um formulário para o cliente preencher com suas informações e
+ escolher a viagem desejada.
+
+A página de expedições apresenta as viagens oferecidas pela empresa. 
+
+4. Promo
+
+A página de promoções reúne ofertas especiais especiais de viagem. O objetivo é permitir que o visitante encontre viagens com 
+preços promocionais.
+
+5. Sobre
+
+A página "Sobre Nós" apresenta a história da Voyageur Expeditions. É uma herança.
+
+7. Contato
+
+A página de contato permite que os visitantes entrem em comunicação com a empresa. Ela apresenta formulário de contato, endereço 
+de e-mail, telefone.
+
+8. Pasta img
+
+Tem a imagem que eu usei de fundo. 
+
+9. Pasta css
+
+Tem o arquivo style.css que é o arquivo de estilo do site. Ele contém todas as regras de estilo, como cores, fontes, tamanhos e 
+layout.
+
+10. Pasta js
+
+Tem o arquivo script.js que é o arquivo de script do site. Ele contém todas as funções e interações do site, como animações,
+validações de formulário e manipulação de elementos da página.
+
+11. Dashboard
+
+O dashboard é uma página administrativa que permite aos administradores do site gerenciar o conteúdo, visualizar estatísticas e
+realizar outras tarefas relacionadas à manutenção do site. Ele oferece uma visão geral das atividades e informações importantes 
+do site, facilitando a administração e o controle das operações.
